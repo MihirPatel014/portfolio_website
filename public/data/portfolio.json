@@ -11,8 +11,8 @@
     ],
     "availability": "Available for freelance",
     "resumeUrl": "/New ResumeMihir.pdf",
-    "profileImage": "/src/assets/faceimg.jpg",
-    "aboutImage": "/src/assets/fullImg.jpg",
+    "profileImage": "/assets/faceimg.jpg",
+    "aboutImage": "/assets/fullImg.jpg",
     "bio": "I am a passionate Full Stack Developer with over 3 years of experience in building modern web applications. I specialize in React, Node.js, and TypeScript, focusing on creating seamless user experiences and scalable backend architectures. My journey in tech is driven by curiosity and a commitment to clean, maintainable code."
   },
   "sections": [
@@ -30,7 +30,7 @@
       "description": "A comprehensive Quiz & Institute Management Platform with admin and student panels. Features OTP-based authentication, exam creation tools, and performance analysis for educational institutes.",
       "techStack": ["React", "Node.js", "Express", "Secure APIs"],
       "featured": true,
-      "image": "/src/assets/prashnottariAppImage.png",
+      "image": "/assets/prashnottariAppImage.png",
       "links": { "github": "#", "live": "https://www.prashnottari.app/" },
       "status": "active"
     },
@@ -40,7 +40,7 @@
       "description": "An OCR-powered invoice scanning and management solution. Developed backend APIs in ASP.NET MVC and integrated an Angular-based mobile app for seamless invoice uploads.",
       "techStack": ["ASP.NET MVC", "Angular", "OCR", "SQL Server"],
       "featured": true,
-      "image": "/src/assets/Invoice4AllAppImage.png",
+      "image": "/assets/Invoice4AllAppImage.png",
       "links": { "github": "#", "live": "https://invoice4allapp.com/" },
       "status": "active"
     },
