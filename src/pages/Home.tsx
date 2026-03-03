@@ -10,11 +10,11 @@ import InfiniteMenu, { MenuItem } from '../components/ui/InfiniteMenu';
 import Preloader from '../components/ui/Preloader';
 import gsap from 'gsap';
 
-// Local Social Icons
-import githubIcon from '../assets/github.png';
-import instaIcon from '../assets/insta.png';
-import twitterIcon from '../assets/twitter.png';
-import linkedinIcon from '../assets/linkedin.png';
+// Local Social Icons (Using absolute paths for public assets)
+const githubIcon = '/assets/github.png';
+const instaIcon = '/assets/insta.png';
+const twitterIcon = '/assets/twitter.png';
+const linkedinIcon = '/assets/linkedin.png';
 
 const Home: React.FC = () => {
     const [data, setData] = useState<PortfolioData | null>(null);
