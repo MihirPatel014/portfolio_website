@@ -1,0 +1,111 @@
+{
+  "personal": {
+    "name": "Mihir Patel",
+    "role": "Developer",
+    "tagline": "Full Stack Developer.",
+    "socialLinks": [
+      { "platform": "GitHub", "url": "https://github.com/MihirPatel014" },
+      { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/mihir-patel-49053220a/" },
+      { "platform": "Twitter", "url": "https://twitter.com/MihirP014" },
+      { "platform": "Instagram", "url": "https://www.instagram.com/mihir_2974" }
+    ],
+    "availability": "Available for freelance",
+    "resumeUrl": "/New ResumeMihir.pdf",
+    "profileImage": "/src/assets/faceimg.jpg",
+    "aboutImage": "/src/assets/fullImg.jpg",
+    "bio": "I am a passionate Full Stack Developer with over 3 years of experience in building modern web applications. I specialize in React, Node.js, and TypeScript, focusing on creating seamless user experiences and scalable backend architectures. My journey in tech is driven by curiosity and a commitment to clean, maintainable code."
+  },
+  "sections": [
+    { "id": "hero", "title": "Home", "enabled": true },
+    { "id": "about", "title": "About", "enabled": true },
+    { "id": "projects", "title": "Projects", "enabled": true },
+    { "id": "skills", "title": "Skills", "enabled": true },
+    { "id": "experience", "title": "Experience", "enabled": true },
+    { "id": "contact", "title": "Contact", "enabled": true }
+  ],
+  "projects": [
+    {
+      "id": "prasnottari",
+      "title": "Prasnottari",
+      "description": "A comprehensive Quiz & Institute Management Platform with admin and student panels. Features OTP-based authentication, exam creation tools, and performance analysis for educational institutes.",
+      "techStack": ["React", "Node.js", "Express", "Secure APIs"],
+      "featured": true,
+      "image": "/src/assets/prashnottariAppImage.png",
+      "links": { "github": "#", "live": "https://www.prashnottari.app/" },
+      "status": "active"
+    },
+    {
+      "id": "invoice4all",
+      "title": "Invoice4All",
+      "description": "An OCR-powered invoice scanning and management solution. Developed backend APIs in ASP.NET MVC and integrated an Angular-based mobile app for seamless invoice uploads.",
+      "techStack": ["ASP.NET MVC", "Angular", "OCR", "SQL Server"],
+      "featured": true,
+      "image": "/src/assets/Invoice4AllAppImage.png",
+      "links": { "github": "#", "live": "https://invoice4allapp.com/" },
+      "status": "active"
+    },
+    {
+      "id": "aiscan4all",
+      "title": "AIScan4All",
+      "description": "A multi-tenant invoice platform designed for accountants managing multiple companies. Features role-based access control and optimized workflows for high-volume document processing.",
+      "techStack": ["Architecture", "Multi-tenancy", "SaaS", "Optimization"],
+      "featured": true,
+      "links": { "github": "#", "live": "#" },
+      "status": "active"
+    },
+    {
+      "id": "portfolio",
+      "title": "Modern JSON Portfolio",
+      "description": "A high-performance personal portfolio built with React, Vite, and GSAP. Features a decoupled JSON data layer for easy content management and premium animations.",
+      "techStack": ["React", "GSAP", "Vite", "JSON"],
+      "featured": true,
+      "links": { "github": "#", "live": "#" },
+      "status": "active"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "React", "level": 90 },
+        { "name": "JavaScript", "level": 95 },
+        { "name": "TypeScript", "level": 85 }
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "Node.js", "level": 85 },
+        { "name": "ASP.NET MVC", "level": 80 },
+        { "name": "REST APIs", "level": 90 }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Raytech",
+      "role": "API Developer",
+      "duration": "Aug 2021 - Aug 2022",
+      "location": "Surat, India",
+      "highlights": [
+        "Specialized in developing and maintaining robust backend APIs.",
+        "Managed database schema design and optimized query performance.",
+        "Ensured high availability and security of API services.",
+        "Handled bug fixes and performance benchmarking for existing systems."
+      ]
+    },
+    {
+      "company": "Palfsoft India",
+      "role": "Full Stack Engineer",
+      "duration": "Sep 2022 - Present",
+      "location": "Surat, India",
+      "highlights": [
+        "Developed and maintained scalable full-stack applications for SaaS products.",
+        "Built RESTful APIs and integrated frontend interfaces with backend services.",
+        "Implemented authentication, performance optimizations, and responsive UI.",
+        "Collaborated with cross-functional teams to improve system reliability."
+      ]
+    }
+    
+  ]
+}
