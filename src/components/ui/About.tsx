@@ -1,4 +1,5 @@
 import React from 'react';
+import { FileText } from 'lucide-react';
 import { LogoLoop, LogoItem } from './LogoLoop';
 import { cn } from '../../lib/utils';
 
@@ -78,7 +79,20 @@ const About: React.FC<AboutProps> = ({ name, bio, image, className }) => {
                         </p>
                     </div>
 
-                    <div className="space-y-6 pt-8">
+                    <div className="flex flex-wrap gap-4 pt-4">
+                        <a
+                            href="/portfolio.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group relative inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-bold rounded-xl overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/20"
+                        >
+                            <div className="absolute inset-0 bg-white/20 translate-y-full transition-transform group-hover:translate-y-0" />
+                            <FileText className="w-5 h-5" />
+                            <span className="relative">View Resume</span>
+                        </a>
+                    </div>
+
+                    <div className="space-y-6 pt-4">
                         <h4 className="text-xs font-bold uppercase tracking-widest text-neutral-500">
                             My Technology Arsenal
                         </h4>

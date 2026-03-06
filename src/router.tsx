@@ -19,7 +19,16 @@ const demoRoute = createRoute({
     component: Demo,
 });
 
-const routeTree = rootRoute.addChildren([indexRoute, demoRoute]);
+const portfolioRoute = createRoute({
+    getParentRoute: () => rootRoute,
+    path: '/portfolio',
+    beforeLoad: () => {
+        window.open('/portfolio.pdf', '_blank');
+        throw { type: 'redirect', to: '/' };
+    },
+});
+
+const routeTree = rootRoute.addChildren([indexRoute, demoRoute, portfolioRoute]);
 
 export const router = createRouter({ routeTree });
 
