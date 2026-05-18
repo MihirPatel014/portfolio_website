@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect, useRef, useMemo } from "react";
 import { Menu, X, ChevronDown, Sparkles } from "lucide-react";
 import { cn } from "../../lib/utils";
@@ -94,10 +96,7 @@ const BlurText: React.FC<BlurTextProps> = ({
 
 export default function PortfolioHero() {
     const [data, setData] = useState<PortfolioData | null>(null);
-    const [isDark, setIsDark] = useState(() => {
-        const saved = localStorage.getItem('portfolio-theme');
-        return saved !== null ? saved === 'dark' : true;
-    });
+    const [isDark, setIsDark] = useState(true);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [showEffect, setShowEffect] = useState(false);
     const menuRef = useRef<HTMLDivElement>(null);
@@ -108,6 +107,7 @@ export default function PortfolioHero() {
         // Apply stored theme on mount instead of always forcing dark
         const saved = localStorage.getItem('portfolio-theme');
         const prefersDark = saved !== null ? saved === 'dark' : true;
+        setIsDark(prefersDark);
         if (prefersDark) {
             document.documentElement.classList.add('dark');
         } else {

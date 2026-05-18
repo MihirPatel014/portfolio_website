@@ -1,5 +1,7 @@
+"use client";
+
 import React from "react";
-import PortfolioHero from "../components/ui/PortfolioHero";
+import PortfolioHero from "../../components/ui/PortfolioHero";
 
 export default function Demo() {
     return (

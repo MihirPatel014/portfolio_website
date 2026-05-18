@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useState } from 'react';
 import { getPortfolioData } from '../services/dataService';
 import { PortfolioData } from '../types/portfolio';

@@ -1,3 +1,5 @@
+"use client";
+
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import React, { useMemo, useRef, useLayoutEffect } from 'react';
 import * as THREE from 'three';
